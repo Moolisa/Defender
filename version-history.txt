@@ -1,0 +1,107 @@
+================================= Version History ===============================================
+
+Release 	        : DEFENDER LOADED
+Date of Release		: 07 September 2015
+ 
+Authors:		:  SHEENA PHILIP (545819)
+                           MOOLISA TLALI (564988)
+
+===========================Game Components===================================================
+
+--->The orientation starts with a Spacefighter facing left.
+--->The Spacefighter can move up,down,left,right and diagonally.
+--->The spacefighter automatically faces the direction that it is moving in.
+
+
+
+=============================CONTROL INSTRUCTIONS=============================================
+
+
+	======= spacefighter CONTROLS :======
+
+
+1. To move RIGHT(EAST), 	RIGHT ARROW KEY  [ > ]
+2. To move LEFT (WEST),         LEFT ARROW KEY   [ < ] 
+3. To move UP (NORTH),          UP ARROW KEY     [ ^ ] 
+4. To move DOWN (SOUTH),        DOWN ARROW KEY   [ v ] 
+5. To move NORTH WEST,          ARROW KEYS       [^ < ] 
+6. To move NORTH EAST,          ARROW KEYS       [^ > ] 
+7. To move SOUTH WEST,          ARROW KEYS       [v < ] 
+8. To move SOUTH EAST,          ARROW KEYS       [v > ] 
+=================================================================================================
+
+
+
+================================= Version 2 History ===============================================
+
+Release 	        : DEFENDER LOADED2
+Date of Release		: 21 September 2015
+ 
+Authors:		:  SHEENA PHILIP (545819)
+                           MOOLISA TLALI (564988)
+
+===========================Game Components===================================================
+
+--->The orientation starts with a Spacefighter facing left.
+--->The Spacefighter is limited to move up,down,left,right.
+--->The Spacefighter can not move past the screen in both the y and x direction.
+--->The spacefighter automatically faces the direction that it is moving in.
+--->There are 3 landers that randomly move in any direction around the screen.
+--->The landers are bounded to within the screen
+--->If a lander and the Spaceship collide,a boolien true is returned and a message is otputted that collision has occured.
+--->The spaceship can shoot only one bullet at a time(bounded in screen area).Bullets and their collision have not been fully implemented.
+
+
+
+=============================CONTROL INSTRUCTIONS=============================================
+
+
+	======= spacefighter CONTROLS :======
+
+
+1. To move RIGHT(EAST), 	RIGHT ARROW KEY  [ > ]
+2. To move LEFT (WEST),         LEFT ARROW KEY   [ < ] 
+3. To move UP (NORTH),          UP ARROW KEY     [ ^ ] 
+4. To move DOWN (SOUTH),        DOWN ARROW KEY   [ v ] 
+5. To shoot                     Spacebar
+
+================================= Version 3 History ===============================================
+
+Release 	        : DEFENDER: FINAL BATTLE
+Date of Release		: 5 October 2015
+ 
+Authors:		:  SHEENA PHILIP (545819)
+                           MOOLISA TLALI (564988)
+
+===========================Game Components===================================================
+
+--->The orientation starts with a Spacefighter facing left.
+--->The Spacefighter is limited to move up,down,left,right.
+--->The Spacefighter can not move past the screen in both the y and x direction.
+--->The spacefighter automatically faces the direction that it is moving in.
+--->The spacefighter can shoot horizontally (laser). It has an unlimited number of bullets
+--->landers teleport onto the screen at random intervals
+--->The landers shoot Missiles towards the SpaceFighter (missile)
+--->If a lander and the SpaceFighter or a Missile and the SpaceFighter collide with one another, the game ends and the player loses
+--->If a laser and and a lander collide, the respective lander is destroyed. If all the landers are destroyed the game ends and the player wins
+
+
+
+
+
+=============================CONTROL INSTRUCTIONS=============================================
+
+
+	======= spacefighter CONTROLS :======
+
+
+1. To move RIGHT(EAST), 	RIGHT ARROW KEY  [ > ]
+2. To move LEFT (WEST),         LEFT ARROW KEY   [ < ] 
+3. To move UP (NORTH),          UP ARROW KEY     [ ^ ] 
+4. To move DOWN (SOUTH),        DOWN ARROW KEY   [ v ] 
+5. To shoot                     Spacebar
+
+
+================================REFERENCES===============================================
+[1] Moreira A, Haller J."SFML Game Development".[Online].[7 September 2015]. Avaliable from: https://drive.google.com/a/students.wits.ac.za/file/d/0B_I7IgPkSkj7djVNY1BVc0NLSXc/edit 
+[2] Collision algorithm derived grom: https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection

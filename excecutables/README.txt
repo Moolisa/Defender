@@ -1,0 +1,1 @@
+system("PAUSE") was used on last google test so that tests could be read. Please just press any key after all tests are run to complete excecution.
